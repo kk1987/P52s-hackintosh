@@ -16,6 +16,36 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Notify (\_SB.PCI0.LPCB.EC.BAT1, ...) -&gt; BATC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>hlwvBV9TQl9QQ0kwTFBDQkVDX19CQVQxCg==</data>
+					<key>Replace</key>
+					<data>hlwvBV9TQl9QQ0kwTFBDQkVDX19CQVRDCg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Notify(BAT1, ...) -&gt; Notify(BATC, ...)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>hkJBVDEK</data>
+					<key>Replace</key>
+					<data>hkJBVEMK</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Notify(BAT0, ...) -&gt; Notify(BATC, ...)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>hkJBVDAK</data>
+					<key>Replace</key>
+					<data>hkJBVEMK</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
 					<key>Disabled</key>
 					<false/>
@@ -236,6 +266,7 @@
 			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-KBD.aml</string>
 			<string>SSDT-BATT.aml</string>
+			<string>SSDT-BATC.aml</string>
 			<string>SSDT-THBT.aml</string>
 			<string>SSDT-CODEC.aml</string>
 		</array>
