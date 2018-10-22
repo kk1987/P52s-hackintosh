@@ -40,7 +40,7 @@ I did a tri-boot setup with installation order as follows:
 
 ### Working
 * most features do work
-  * Keyboard & TrackPoint/TrackPad (as mouse)
+  * Keyboard & TrackPoint/TrackPad
   * Ethernet, WiFi, Bluetooth
   * Screen brightness & brightness shortcut keys
   * Basic audio including speaker, internal mic, headphone jack
@@ -59,6 +59,11 @@ I did a tri-boot setup with installation order as follows:
   * Alternatively, VoodooHDA can be used. It supports enternal mic via combo jack (without auto-switching) but doesn't support HDMI audio. Configuration in `Info.plist` need to be updated with `iGain=0, PCM=100, Rec=50`
 * HDMI/DP output
   * TODO
+* TrackPad: works but isn't perfect
+  * No 3- or 4-finger gestures
+  * 2-finger-tap right click doesn't work 99% of the time (2-finger-click works fine)
+  * Scrolling can feel sluggish
+  * Could be disabled by PrtSc key. (It won't disable TrackPoint, which mostly works fine)
 
 ### Not Working / Untested
 

@@ -84,7 +84,7 @@
 						<false/>
 					</dict>
 					<key>DefaultResolution</key>
-					<integer>800</integer>
+					<integer>240</integer>
 					<key>DisableDevice</key>
 					<false/>
 					<key>DisableLEDUpdating</key>
@@ -92,9 +92,9 @@
 					<key>FakeMiddleButton</key>
 					<false/>
 					<key>ForceDefaultResolution</key>
-					<false/>
-					<key>ForceSetResolution</key>
 					<true/>
+					<key>ForceSetResolution</key>
+					<false/>
 					<key>MiddleClickTime</key>
 					<integer>100000000</integer>
 					<key>MouseCount</key>

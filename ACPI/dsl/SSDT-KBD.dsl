@@ -45,7 +45,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_KBD", 0x00000000)
         */
     }
 
-/*
     Scope(_SB.PCI0.LPCB.KBD)
     {
         // Select specific configuration in VoodooPS2Trackpad.kext
@@ -65,21 +64,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_KBD", 0x00000000)
             {
                 "BogusDeltaThreshX", 800,
                 "BogusDeltaThreshY", 800,
-                "Clicking", ">y",
-                "DragLockTempMask", 0x40004,
-                "DynamicEWMode", ">n",
-                "FakeMiddleButton", ">n",
-                "HWResetOnStart", ">y",
-                //"ForcePassThrough", ">y",
-                //"SkipPassThrough", ">y",
-                "PalmNoAction When Typing", ">y",
-                "ScrollResolution", 800,
-                "SmoothInput", ">y",
-                "UnsmootInput", ">y",
-                "Thinkpad", ">y",
-                "EdgeBottom", 0,
-                "FingerZ", 30,
-                "MaxTapTime", 100000000,
                 "MouseMultiplierX", 2,
                 "MouseMultiplierY", 2,
                 "MouseScrollMultiplierX", 2,
@@ -89,7 +73,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_KBD", 0x00000000)
             },
         })
     }
-    
+
     External(_SB.PCI0.LPCB.MOU, DeviceObj)
     Scope(_SB.PCI0.LPCB.MOU)
     {
@@ -110,21 +94,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_KBD", 0x00000000)
             {
                 "BogusDeltaThreshX", 800,
                 "BogusDeltaThreshY", 800,
-                "Clicking", ">y",
-                "DragLockTempMask", 0x40004,
-                "DynamicEWMode", ">n",
-                "FakeMiddleButton", ">n",
-                "HWResetOnStart", ">y",
-                //"ForcePassThrough", ">y",
-                //"SkipPassThrough", ">y",
-                "PalmNoAction When Typing", ">y",
-                "ScrollResolution", 800,
-                "SmoothInput", ">y",
-                "UnsmootInput", ">y",
-                "Thinkpad", ">y",
-                "EdgeBottom", 0,
-                "FingerZ", 30,
-                "MaxTapTime", 100000000,
                 "MouseMultiplierX", 2,
                 "MouseMultiplierY", 2,
                 "MouseScrollMultiplierX", 2,
@@ -134,7 +103,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_KBD", 0x00000000)
             },
         })
     }
-   */
 #ifndef NO_DEFINITIONBLOCK
 }
 #endif
