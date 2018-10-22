@@ -47,8 +47,7 @@ I did a tri-boot setup with installation order as follows:
   * Camera
   * Card reader
   * All USB ports
-  * HDMI video port, with audio
-  * USB type-C video output, with audio
+  * USB type-C video output
   * Thunderbolt (as long as you didn't enable "Thunderbolt BIOS Assist")
 
 ### Limited functionality
@@ -58,7 +57,8 @@ I did a tri-boot setup with installation order as follows:
   * "out of the box" headphone sound may be glitchy. Disabling "Use ambient noise reduction" in Settings -> Sound -> Input seems to fix this
   * Alternatively, VoodooHDA can be used. It supports enternal mic via combo jack (without auto-switching) but doesn't support HDMI audio. Configuration in `Info.plist` need to be updated with `iGain=0, PCM=100, Rec=50`
 * HDMI/DP output
-  * TODO
+  * DP/HDMI via USB type-C: video works fine. Audio device shows up but no sound is transmitted
+  * Standalone HDMI port: 50/50. With my limited testing, video output works with a 1440p monitor but not with a 4k one. Also when connected, no audio device shows up
 * TrackPad: works but isn't perfect
   * No 3- or 4-finger gestures
   * 2-finger-tap right click doesn't work 99% of the time (2-finger-click works fine)
