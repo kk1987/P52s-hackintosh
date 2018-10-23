@@ -64,6 +64,8 @@ I did a tri-boot setup with installation order as follows:
   * 2-finger-tap right click doesn't work 99% of the time (2-finger-click works fine)
   * Scrolling can feel sluggish
   * Could be disabled by PrtSc key. (It won't disable TrackPoint, which mostly works fine)
+* Sleep/wake
+  * Power LED continues to blink if laptop is waken immediately after going into sleep
 
 ### Not Working / Untested
 

@@ -9,8 +9,8 @@ DefinitionBlock("", "SSDT", 2, "hack", "_DDGPU", 0)
     // it is best to edit the code such that only the single _OFF path that your ACPI
     // uses is included.
     // External(_SB.PCI0.PEG0.PEGP._OFF, MethodObj)
-    External(_SB.PCI0.RP01.PEGP._OFF, MethodObj)
-    // External(_SB.PCI0.RP01.PXSX._OFF, MethodObj)
+    // External(_SB.PCI0.RP01.PEGP._OFF, MethodObj)
+    External(_SB.PCI0.RP01.PXSX._OFF, MethodObj)
 
     Device(RMD1)
     {
@@ -19,8 +19,8 @@ DefinitionBlock("", "SSDT", 2, "hack", "_DDGPU", 0)
         {
             // disable discrete graphics (Nvidia/Radeon) if it is present
             // If (CondRefOf(\_SB.PCI0.PEG0.PEGP._OFF)) { \_SB.PCI0.PEG0.PEGP._OFF() }
-            If (CondRefOf(\_SB.PCI0.RP01.PEGP._OFF)) { \_SB.PCI0.RP01.PEGP._OFF() }
-            // If (CondRefOf(\_SB.PCI0.RP01.PXSX._OFF)) { \_SB.PCI0.RP01.PXSX._OFF() }
+            // If (CondRefOf(\_SB.PCI0.RP01.PEGP._OFF)) { \_SB.PCI0.RP01.PEGP._OFF() }
+            If (CondRefOf(\_SB.PCI0.RP01.PXSX._OFF)) { \_SB.PCI0.RP01.PXSX._OFF() }
         }
     }
 #ifndef NO_DEFINITIONBLOCK

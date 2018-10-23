@@ -7,8 +7,8 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PTSWAK", 0)
     External(ZPTS, MethodObj)
     External(ZWAK, MethodObj)
 
-    External(_SB.PCI0.RP01.PEGP._ON, MethodObj)
-    External(_SB.PCI0.RP01.PEGP._OFF, MethodObj)
+    External(_SB.PCI0.RP01.PXSX._ON, MethodObj)
+    External(_SB.PCI0.RP01.PXSX._OFF, MethodObj)
 
     External(RMCF.DPTS, IntObj)
     External(RMCF.SHUT, IntObj)
@@ -48,7 +48,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PTSWAK", 0)
             If (\RMCF.DPTS)
             {
                 // enable discrete graphics
-                If (CondRefOf(\_SB.PCI0.RP01.PEGP._ON)) { \_SB.PCI0.RP01.PEGP._ON() }                
+                If (CondRefOf(\_SB.PCI0.RP01.PXSX._ON)) { \_SB.PCI0.RP01.PXSX._ON() }
             }
         }
 
@@ -75,7 +75,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "_PTSWAK", 0)
             If (\RMCF.DPTS)
             {
                 // disable discrete graphics
-                If (CondRefOf(\_SB.PCI0.RP01.PEGP._OFF)) { \_SB.PCI0.RP01.PEGP._OFF() }
+                If (CondRefOf(\_SB.PCI0.RP01.PXSX._OFF)) { \_SB.PCI0.RP01.PXSX._OFF() }
             }
         }
 
