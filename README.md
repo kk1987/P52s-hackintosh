@@ -65,7 +65,8 @@ I did a tri-boot setup with installation order as follows:
   * Scrolling can feel sluggish
   * Could be disabled by PrtSc key. (It won't disable TrackPoint, which mostly works fine)
 * Sleep/wake
-  * Power LED continues to blink if laptop is waken immediately after going into sleep
+  * (Most of the time) Power LED continues to blink after wake
+  * (In rare cases) Bluetooth may become unavailable after wake
 
 ### Not Working / Untested
 

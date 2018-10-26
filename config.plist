@@ -276,7 +276,7 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1 bpr_probedelay=200 bpr_initialdelay=400 bpr_postresetdelay=400</string>
+		<string>-v dart=0 nv_disable=1 bpr_probedelay=600 bpr_initialdelay=800 bpr_postresetdelay=800</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
