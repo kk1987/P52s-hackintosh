@@ -92,11 +92,11 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HPET to XPET</string>
+					<string>change HPET._STA to XSTA</string>
 					<key>Find</key>
-					<data>BkhQRVQ=</data>
+					<data>FBJfU1RBAA==</data>
 					<key>Replace</key>
-					<data>BlhQRVQ=</data>
+					<data>FBJYU1RBAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
