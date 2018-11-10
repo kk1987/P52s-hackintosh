@@ -1,6 +1,6 @@
 ## Introduction
 
-This repo is my notes and configuration files for my hackintosh (10.14 Mojave) installation on a Thinkpad P52s. The Clover files in this repo (config.plist + ACPI/patched/ + kexts/Other/ + drivers64UEFI) _in theory_ (I didn't test extensively) should boot macOS 10.14, installer or post-install, on any P52s. It's highly likely to work on a T580 or T480, too.
+This repo is my notes and configuration files for my hackintosh (10.14-10.14.1 Mojave) installation on a Thinkpad P52s. The Clover files in this repo (config.plist + ACPI/patched/ + kexts/Other/ + drivers64UEFI) _in theory_ (I didn't test extensively) should boot macOS 10.14, installer or post-install, on any P52s. It's highly likely to work on a T580 or T480, too.
 
 For T480s, see <https://github.com/kk1987/T480s-hackintosh>, of which this repo was initially based off.
 
